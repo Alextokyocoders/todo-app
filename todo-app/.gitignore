@@ -1,0 +1,14 @@
+/node_modules
+/.idea
+/client/notify/node_modules
+/dist/node_modules/
+client/notification/node_modules
+client/notify/src/assets/js/
+dist/server/private
+/server/private/
+server/public/javascripts/
+server/public/stylesheets/
+/docs/
+/dist/
+/share/
+.DS_Store

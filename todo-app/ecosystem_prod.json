@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "todo-app-prod",
+      "script": "./server/index.js",
+      "merge_logs": true,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

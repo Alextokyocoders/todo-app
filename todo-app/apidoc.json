@@ -1,0 +1,12 @@
+{
+  "name": "Todo app application",
+  "version": "1.0.0",
+  "description": "Todo API documentation",
+  "title": "Todo API V1",
+  "url": "http://localhost:8888/api/v1",
+  "order": [
+    "Authenticate",
+    "User",
+    "Common"
+  ]
+}

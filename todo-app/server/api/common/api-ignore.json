@@ -1,0 +1,54 @@
+{
+  "auth": [
+    "/auth/register",
+    "/auth/login",
+    "/auth/test",
+    "/auth/admin/login",
+    "/state/list",
+    "/user/password/forgot",
+    "/common/state",
+    "/contact",
+    "/rate"
+  ],
+  "regex": [
+    "(blog)+",
+    "(comment)+",
+    "(blog-category)+",
+    "(policy)+",
+    "(user/sms)+",
+    "(rate)+"
+  ],
+  "admin-api": [
+    {
+      "url": "/contact",
+      "method": [
+        "GET",
+        "PUT",
+        "DELETE"
+      ]
+    },
+    {
+      "url": "/contact/*",
+      "method": [
+        "GET"
+      ],
+      "regex": true
+    },
+    "/payment/admin/payment",
+    {
+      "url": "/rate/*",
+      "method": [
+        "DELETE"
+      ],
+      "regex": true
+    },
+    {
+      "url": "/blog-category",
+      "method": [
+        "DELETE",
+        "PUT",
+        "POST"
+      ]
+    }
+  ]
+}

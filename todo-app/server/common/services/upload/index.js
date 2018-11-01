@@ -1,0 +1,1 @@
+exports.uploadBase = require('./upload.service').uploadBase;
